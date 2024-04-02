@@ -12,7 +12,7 @@ custom_js:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/c1.json" style="width: 100%"></vegachart>
 <br>
-<vegachart schema-url="{{ site.baseurl }}/assets/chart2.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/c2.json" style="width: 100%"></vegachart>
 
 # writeup
 My first visualization is a scatter plot that visualizes the relationship between floors above grade and the total floors in the data set. Each point represents a point in the data set. My x axis is “Floors Above Grade” and my y -axis represents “total floors.” The color is based on the conditional selected_floors. When the points are selected they are colored green and the non selected points are colored grey. I chose green and grey to help the user distinguish between selected and not selected data points. I used alt.condition()  to color the points based on selected_floors. For interactivity I used the selected_floors selection. This allows the users to select points which change color.
