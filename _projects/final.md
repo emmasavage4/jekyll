@@ -1,8 +1,8 @@
 ---
-name: hw 8 Project
+name: Final Website
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+description: This is a test to see if it works
 custom_js:
   - vega.min
   - vega-lite.min
