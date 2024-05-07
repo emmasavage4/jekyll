@@ -27,7 +27,7 @@ We can use a vegachart HTML tag like so:
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/earthquake_map.html" style="width: 100%"></vegachart>
+<iframe src="{{ site.baseurl }}/assets/earthquake_map.html" style="width: 100%; height: 500px;"></iframe>
 
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
