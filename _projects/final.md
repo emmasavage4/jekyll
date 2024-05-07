@@ -10,7 +10,7 @@ custom_js:
   - justcharts
 ---
 
-<vegachart schema-url="{{ site.baseurl }}/assets/output.html" style="width: 100%"></vegachart>
+<iframe schema-url="{{ site.baseurl }}/assets/output.html" style="width: 100%"></iframe>
 
 
 # writeup
