@@ -10,7 +10,7 @@ custom_js:
   - justcharts
 ---
 
-<iframe schema-url="{{ site.baseurl }}/assets/output.html" style="width: 100%"></iframe>
+<iframe src="{{ site.baseurl }}/assets/output.html" style="width: 100%; height: 500px;"></iframe>
 
 
 # writeup
